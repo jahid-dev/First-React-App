@@ -1,0 +1,50 @@
+
+.bannar-section{
+	background-image: url(../images/slide.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	position: relative;
+}
+.bannar-section:before{
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.5);
+	height: 100%;
+	width: 100%;
+}
+.bannar-content {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	flex-direction: column;
+}
+.bannar-content h1{
+	color: #fff;
+	font-size: 55px;
+	text-transform: uppercase;
+}
+.bannar-content p{
+	color: #fff;
+	font-size: 15px;
+}
+.bannar-content a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fff;
+    padding: 12px 25px;
+    color: #222;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+@media all and (max-width: 767px){
+	.bannar-content h1{
+		font-size: 35px;
+	}
+}

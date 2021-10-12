@@ -1,0 +1,38 @@
+.page-bannar{
+	background-size: cover;
+	background-position: center;
+	height: 280px;
+	background-image: url(../images/slide.jpg);
+	position: relative;
+}
+.page-bannar:before{
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.5);
+	height: 100%;
+	width: 100%;
+}
+.bannar-breadgam{
+	height: 280px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.bannar-breadgam h3{
+	color: #fff;
+	text-transform: capitalize;
+}
+.bannar-breadgam ul li{
+	display: inline-block;
+	color: #fff;
+	font-size: 15px;
+	padding: 0px 5px;
+}
+.bannar-breadgam ul li a{
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+}

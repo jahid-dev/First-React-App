@@ -1,0 +1,12 @@
+.client-section{
+	background-color: #fff;
+	padding: 100px 0px;
+}
+.clients img{
+	width: 120px !important;
+	margin: 0 auto;
+}
+.client-section .owl-dots,
+.client-section .owl-navs{
+	display: none;
+}

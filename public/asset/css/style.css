@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+h1{
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+h2{
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+h3{
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+h4{
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+h5{
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+}
+h6{
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 24px;
+}
+a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+
+
+/*header-area*/
+
+.header-area {
+    padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+}
+.header-area .navbar{
+	padding: 0px;
+}
+.header-area ul li{
+	display: inline-block;
+	padding: 10px 15px;
+}
+.header-area ul li:last-child{
+	padding-right: 0px;
+}
+.header-area ul li.dropdown-effect{
+	position: relative;
+}
+.header-area ul li.dropdown-effect a i{
+	margin-left: 5px;
+}
+
+.header-area ul li.dropdown-effect ul{
+	position: absolute;
+	width: 180px;
+	background: #fff;
+	top: 100%;
+	left: 50%;
+	margin-left: -90px;
+	z-index: 99;
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: .3s all ease;
+}
+.header-area ul li.dropdown-effect:hover ul{
+	visibility: visible;
+	opacity: 1;
+}
+.header-area ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+.header-area ul li.dropdown-effect ul li{
+	display: block;
+	padding: 0px;
+}
+.header-area ul li.dropdown-effect ul li a{
+	display: block;
+	padding: 10px 15px;
+	color: #000;
+}
+.navbar-toggler i {
+    color: #fff;
+}
+/*header-area*/
+
+
+
+/*footer-section*/
+
+.footer-section{
+	background-color: #121117;
+	padding: 100px 0px 0px 0px;
+}
+.single-footer{
+	padding-bottom: 100px;
+}
+.single-footer p{
+	color: #E1E1E1;
+	margin: 15px 0px;
+	font-size: 15px;
+}
+.social-profile ul li{
+	display: inline-block;
+	padding-right: 8px;
+}
+.social-profile ul li a{
+	text-decoration: none;
+}
+.social-profile ul li a i{
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #222222;
+	color: #E1E1E1;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.single-footer h3{
+	color: #fff;
+	margin-bottom: 15px;
+}
+.single-footer > ul > li{
+	display: block;
+}
+.single-footer > ul > li a{
+	color: #E1E1E1;
+	font-size: 15px;
+	text-decoration: none;
+	display: block;
+	padding: 5px 0px;
+}
+.single-footer form{
+	display: flex;
+}
+.single-footer form input{
+	height: 45px;
+	background-color: #191919;
+	border: 0px solid;
+	width: 80% !important;
+	border-radius: 5px 0px 0px 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+.single-footer form input:focus{
+	background-color: #191919;
+}
+.single-footer form button{
+	width: 20%;
+	height: 45px;
+	border-radius: 0px 5px 5px 0px;
+	background: #fff;
+	color: #222; 
+}
+.copyright-section{
+	border-top: 1px solid rgba(255, 255, 255, 0.12);
+	padding: 20px 0px;
+}
+.copyright-section p{
+	color: #E1E1E1;
+	margin: 0px;
+	font-size: 15px;
+}
+.copyright-section p a{
+	text-decoration: none;
+	color: #E1E1E1;
+}
+
+/*footer-section*/
+
+@media all and (max-width: 991px){
+	.navbar-nav.ml-auto{
+		background: #000;
+	}
+	.header-area ul li.dropdown-effect ul{
+		position: absolute;
+		width: 100%;
+		background: #fff;
+		top: 100%;
+		left: 0%;
+		margin-left: 0px;
+		z-index: 99;
+		border-radius: 5px;
+		visibility: hidden;
+		opacity: 0;
+		transition: .3s all ease;
+	}
+	.header-area ul li{
+		display: block;
+	}
+}
+
+@media all and (max-width: 767px){
+	.single-footer{
+		padding-bottom: 30px;
+	}
+	.copyright-section p{
+		text-align: center !important;
+	}
+}

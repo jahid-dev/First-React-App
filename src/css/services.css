@@ -1,0 +1,48 @@
+
+.services-section{
+	background-color: #fff;
+	padding: 100px 0px;
+}
+.sevices-title h2,
+.project-title h2,
+.client-title h2,
+.grouth-title h2{
+	color: #000;
+	text-transform: capitalize;
+} 
+.sevices-title p,
+.project-title p,
+.client-title p,
+.grouth-title p{
+	color: #777;
+	font-size: 14px;
+}
+.single-service{
+	margin: 15px 0px 0px 0px;
+	padding: 20px;
+	box-shadow: 0px 30px 70px 0px rgba(223, 227, 234, 0.5);
+}
+.single-service i{
+	color: #000;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.single-service h3{
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.single-service p{
+	color: #777;
+	font-size: 14px;
+}
+.single-service a{
+	display: inline-block;
+	background-color: #000;
+	padding: 8px 15px;
+	border-radius: 5px;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 14px;
+	text-decoration: none;
+}

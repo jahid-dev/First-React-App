@@ -1,0 +1,61 @@
+
+.project-section{
+	background-color: #FAFAFB;
+	padding: 100px 0px;
+}
+.single-project{
+	position: relative;
+	border-radius: 10px;
+}
+.single-project img{
+	width: 100%;
+	border-radius: 10px;
+}
+.porject-overley{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.7);
+	border-radius: 10px;
+}
+.porject-overley a {
+    text-decoration: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+.porject-overley p{
+	color: #fff;
+	opacity: .7;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.porject-overley h3{
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 0px;
+}
+.project-section .owl-dots{
+	text-align: center;
+	width: 100%;
+}
+.project-section .owl-dot{
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #A3A3A3 !important;
+	display: inline-block;
+	margin: 0px 8px;
+}
+.project-section .owl-dot.active{
+	height: 12px;
+	width: 12px;
+	background: transparent !important;
+	border: 2px solid #000 !important;
+}

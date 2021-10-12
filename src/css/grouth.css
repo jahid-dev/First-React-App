@@ -1,0 +1,20 @@
+.grouth-section{
+	background-color: #fff;
+	padding: 100px 0px;
+}
+.counter-text{
+	margin-top: 30px;
+}
+.counter-text i{
+	font-size: 45px;
+	color: #000;
+}
+.conter-online span{
+	color: #000;
+	font-weight: 700;
+	font-size: 40px;
+}
+.counter-text h4{
+	color: #757575;
+	margin-bottom: 0px;
+}

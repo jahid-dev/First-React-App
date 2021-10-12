@@ -1,0 +1,21 @@
+.about-us{
+	background-color: #F7F7F7;
+	padding: 100px 0px;
+}
+.about-us-content h2{
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.about-us-content p{
+	color: #777;
+	font-size: 14px;
+}
+.about-us-content .first img{
+	width: 60%;
+}
+.about-us-content .second img{
+	width: 60%;
+	float: right;
+	margin-top: -100px;
+}

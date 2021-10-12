@@ -1,0 +1,41 @@
+.contact-infobox{
+	background-color: #fff;
+	padding: 100px 0px;
+}
+.single-ct{
+	background-color: #F7F7F7;
+	padding: 30px;
+	border: 1px solid #ddd;
+}
+.single-ct i{
+	color: #000;
+	font-weight: 600;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+.single-ct p{
+	color: #777;
+	font-size: 17px;
+	margin-bottom: 0px;
+}
+.contact-form{
+	margin-top: 30px;
+	background-color: #F7F7F7;
+	padding: 25px;
+	border: 1px solid #ddd;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"]{
+	height: 45px;
+	border: 1px solid #ddd;
+	border-radius: 0px;
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+.contact-form textarea{
+	height: 120px;
+	border: 1px solid #ddd;
+	border-radius: 0px;
+	font-size: 13px;
+	margin-bottom: 15px;
+}
